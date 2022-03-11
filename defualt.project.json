@@ -1,0 +1,60 @@
+{
+    "name": "Free For All",
+    "tree": {
+      "$className": "DataModel",
+      "$ignoreUnknownInstances": true,
+  
+      "ReplicatedFirst": {
+        "$className": "ReplicatedFirst",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/ReplicatedFirst"
+      },
+
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/ReplicatedStorage"
+      },
+
+      "ServerScriptService": {
+        "$className": "ServerScriptService",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/ServerScriptService"
+      },
+
+      "ServerStorage": {
+        "$className": "ServerStorage",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/ServerStorage"
+      },
+
+      "StarterGui": {
+        "$className": "StarterGui",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterGui"
+      },
+  
+      "StarterPlayer": {
+        "$className": "StarterPlayer",
+        "$ignoreUnknownInstances": true,
+  
+        "StarterPlayerScripts": {
+          "$className": "StarterPlayerScripts",
+          "$ignoreUnknownInstances": true,
+          "$path": "src/StarterPlayer/StarterPlayerScripts"
+        },
+
+        "StarterCharacterScripts": {
+            "$className": "StarterCharacterScripts",
+            "$ignoreUnknownInstances": true,
+            "$path": "src/StarterPlayer/StarterCharacterScripts"
+          }
+      },
+
+      "Workspace": {
+        "$className": "Workspace",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/Workspace"  
+      }
+    }
+  }
